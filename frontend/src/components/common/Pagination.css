@@ -1,0 +1,28 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 48px 0 16px;
+  flex-wrap: wrap;
+}
+
+.pg-btn {
+  min-width: 42px;
+  height: 42px;
+  padding: 0 14px;
+  border-radius: var(--radius-sm);
+  border: 2px solid var(--gray-200);
+  background: var(--white);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--gray-600);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.pg-btn:hover:not(:disabled) { border-color: var(--black); color: var(--black); background: var(--off-white); }
+.pg-btn.active { background: var(--black); color: white; border-color: var(--black); }
+.pg-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+.pg-arrow { padding: 0 18px; font-size: 13px; letter-spacing: 0.3px; }
+.pg-ellipsis { color: var(--gray-400); font-size: 16px; padding: 0 4px; }

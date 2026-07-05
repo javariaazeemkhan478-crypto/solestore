@@ -1,0 +1,65 @@
+.pcard {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--white);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  cursor: pointer;
+}
+.pcard:hover { box-shadow: var(--shadow-lg); transform: translateY(-6px); }
+
+.pcard-img-wrap {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: var(--off-white);
+}
+.pcard-img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
+}
+.pcard:hover .pcard-img { transform: scale(1.08); }
+
+.pcard-badges {
+  position: absolute;
+  top: 10px; left: 10px;
+  display: flex; flex-direction: column; gap: 4px;
+}
+
+.pcard-actions {
+  position: absolute;
+  bottom: -54px;
+  left: 0; right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  background: rgba(13,13,13,0.82);
+  backdrop-filter: blur(4px);
+  transition: bottom 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+.pcard:hover .pcard-actions { bottom: 0; }
+
+.pcard-action-btn {
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.12);
+  color: white;
+  display: flex; align-items: center; justify-content: center;
+  transition: var(--transition);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+.pcard-action-btn:hover { background: var(--accent); border-color: var(--accent); transform: scale(1.1); }
+.pcard-action-btn.wishlisted { background: var(--accent); border-color: var(--accent); color: white; }
+
+.pcard-body { padding: 14px 16px 16px; flex: 1; }
+.pcard-brand { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--gray-400); display: block; margin-bottom: 4px; }
+.pcard-name { font-size: 14px; font-weight: 700; line-height: 1.3; margin-bottom: 10px; color: var(--black); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.pcard-price { display: flex; align-items: center; gap: 8px; }
+.pcard-price-sale { font-size: 18px; font-weight: 800; color: var(--accent); }
+.pcard-price-orig { font-size: 13px; color: var(--gray-400); text-decoration: line-through; }
+.pcard-price-curr { font-size: 18px; font-weight: 800; color: var(--black); }
+.pcard-oos { font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--gray-400); margin-top: 4px; display: block; }
