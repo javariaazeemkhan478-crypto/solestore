@@ -1,0 +1,27 @@
+﻿name: Daily Green Commit
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Make commits
+        run: |
+          git config --global user.email "javariaazeemkhan478@gmail.com"
+          git config --global user.name "javariaazeemkhan478-crypto"
+          for i in {1..10}; do
+            date >> activity.txt
+            git add .
+            git commit -m "Daily update $i - $(date)"
+            sleep 1
+          done
+          git push
