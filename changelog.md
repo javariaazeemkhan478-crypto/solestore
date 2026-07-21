@@ -93,3 +93,4 @@ Update product card styling - Tue Jul 21 10:56:15 UTC 2026
 Improve navbar performance - Tue Jul 21 10:56:42 UTC 2026
 Add loading states - Tue Jul 21 10:57:13 UTC 2026
 Fix cart total calculation - Tue Jul 21 10:57:41 UTC 2026
+Update footer links - Tue Jul 21 10:58:06 UTC 2026
