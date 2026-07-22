@@ -102,3 +102,4 @@ Fix responsive layout issue - Wed Jul 22 10:57:12 UTC 2026
 Update product card styling - Wed Jul 22 10:57:36 UTC 2026
 Improve navbar performance - Wed Jul 22 10:57:43 UTC 2026
 Add loading states - Wed Jul 22 10:57:57 UTC 2026
+Fix cart total calculation - Wed Jul 22 10:58:27 UTC 2026
