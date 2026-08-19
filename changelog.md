@@ -386,3 +386,4 @@ Fix cart total calculation - Wed Aug 19 09:23:30 UTC 2026
 Update footer links - Wed Aug 19 09:24:03 UTC 2026
 Improve mobile menu - Wed Aug 19 09:24:09 UTC 2026
 Fix search functionality - Wed Aug 19 09:24:17 UTC 2026
+Update color variables - Wed Aug 19 09:24:32 UTC 2026
