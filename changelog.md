@@ -401,3 +401,4 @@ Refactor product grid - Thu Aug 20 09:25:47 UTC 2026
 Fix responsive layout issue - Fri Aug 21 09:24:29 UTC 2026
 Update product card styling - Fri Aug 21 09:25:01 UTC 2026
 Improve navbar performance - Fri Aug 21 09:25:14 UTC 2026
+Add loading states - Fri Aug 21 09:25:19 UTC 2026
