@@ -604,3 +604,4 @@ Improve navbar performance - Thu Sep 10 13:12:06 UTC 2026
 Add loading states - Thu Sep 10 13:12:11 UTC 2026
 Fix cart total calculation - Thu Sep 10 13:12:29 UTC 2026
 Update footer links - Thu Sep 10 13:12:57 UTC 2026
+Improve mobile menu - Thu Sep 10 13:13:16 UTC 2026
