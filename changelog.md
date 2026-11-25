@@ -1364,3 +1364,4 @@ Improve navbar performance - Wed Nov 25 18:54:08 UTC 2026
 Add loading states - Wed Nov 25 18:54:27 UTC 2026
 Fix cart total calculation - Wed Nov 25 18:54:46 UTC 2026
 Update footer links - Wed Nov 25 18:54:52 UTC 2026
+Improve mobile menu - Wed Nov 25 18:55:22 UTC 2026
